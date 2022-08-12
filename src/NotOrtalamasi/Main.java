@@ -1,3 +1,5 @@
+package NotOrtalamasi;
+
 import java.util.Scanner;
 
 public class Main {
@@ -32,8 +34,5 @@ public class Main {
         System.out.println("Ortalama: " + ortalama);
 
         System.out.println(ortalama >= 60 ? "Geçti" : "Kaldı");
-
-
-
     }
 }
