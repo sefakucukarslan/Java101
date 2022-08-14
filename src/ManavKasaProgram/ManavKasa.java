@@ -9,15 +9,15 @@ public class ManavKasa {
         Scanner scr = new Scanner(System.in);
 
         System.out.print("Armut Kaç kilo ? :");
-        armut *= scr.nextInt();
+        armut *= scr.nextDouble();
         System.out.print("Elma Kaç kilo ? :");
-        elma *= scr.nextInt();
+        elma *= scr.nextDouble();
         System.out.print("Domates Kaç kilo ? :");
-        domates *= scr.nextInt();
+        domates *= scr.nextDouble();
         System.out.print("Muz Kaç kilo ? :");
-        muz *= scr.nextInt();
+        muz *= scr.nextDouble();
         System.out.print("Patlıcan Kaç kilo ? :");
-        patlican *= scr.nextInt();
+        patlican *= scr.nextDouble();
 
         toplam = armut + elma + domates + muz + patlican;
         System.out.println("Toplam Tutar : " + toplam);
